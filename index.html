@@ -91,7 +91,7 @@
       font-size: 12px;
     }
     .content {
-      width: min(100%, 1160px);
+      width: min(calc(100% - var(--sidebar-width)), 1160px);
       margin-left: var(--sidebar-width);
       padding: 24px clamp(22px, 5vw, 68px) 40px;
     }
@@ -315,5 +315,7 @@
   </div>
 </body>
 </html>
+
+
 
 
